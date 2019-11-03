@@ -1,0 +1,88 @@
+a {
+  text-decoration: none;
+}
+
+.App {
+  width: 500px;
+  margin: 50px auto;
+}
+
+.productList {
+  width: 500px;
+}
+
+.product {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+
+.product:last-child {
+  margin-bottom: 0px;
+}
+
+.product .img {
+  border-radius: 5px 0px 0px 5px;
+  background-color: #222;
+  width: 100%;
+}
+
+.product .content {
+  padding: 20px;
+}
+
+.content .description {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  grid-gap: 15px;
+}
+
+.vote-counter {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+}
+
+.vote-counter button {
+  font-size: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 5px 10px;
+  color: #aaa;
+  outline: none;
+  margin: 0px;
+  height: fit-content;
+}
+
+.vote-counter button:hover {
+  background-color: #aaa;
+  color: white;
+  cursor: pointer;
+}
+
+.content h3 {
+  margin: 0 0 10px 0;
+}
+
+.content p {
+  font-size: 13px;
+}
+
+.extra {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.extra .avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 999em;
+  background-color: #333;
+  margin-right: 10px;
+}
