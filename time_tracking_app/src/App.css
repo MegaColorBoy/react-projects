@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+.App h2 {
+  text-align: center;
+}
+
+.timerDashboard {
+  /*border: 1px solid #000;*/
+  background-color: #fafafa;
+  width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+.timerList {
+  /*border: 1px solid red;*/
+  width: 300px;
+  margin: auto;
+}
+
+.toggleableTimerForm {
+  border: 1px solid blue;
+  width: 300px;
+  margin: auto;
+}
+
+.timer {
+  background-color: white;
+  border: 1px solid #fafafa;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 300px;
+}
+
+.timer h3 {
+  margin-bottom: 0px;
+}
+
+.timer p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: darkgrey;
+}
+
+/*.timer:last-child {
+  margin-bottom: 0px;
+}*/
+
+.btn {
+  border: none;
+  /*width: 100%;*/
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 11px;
+  padding: 5px 10px;
+  background-color: white;
+}
+
+.btn.start {
+  border-color: green;
+  color: green;
+}
+
+.btn.edit {
+  color: blue;
+  border-color: blue;
+}
+
+.btn.delete {
+  color: red;
+  border-color: red;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn.no-bg {
+  color: darkgrey;
+}
+
+.btn.no-bg:hover {
+  color: black;
+}
+
+.btn.start:hover{
+  background-color: green;
+  color: white;
+}
+
+.btn.edit:hover {
+  background-color: blue;
+  color: white;
+}
+
+.btn.delete:hover {
+  background-color: red;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.options button {
+  padding: 0;
+  margin: 0 5px;
+  border: none;
+  background-color: transparent;
+}
+
+.options button:last-child {
+  margin-right: 0px;
+}
+
+.timer.timerForm label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.timer.timerForm input[type="text"] {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  padding: 0px 10px;
+  font-size: 11px;
+}
+
+.timer.timerForm .item {
+  margin: 15px 0px;
+}
+
+.timer.timerForm .item:first-child {
+  margin-top: 0;
+}
+
+.timer.timerForm .item:last-child {
+  margin-bottom: 0;
+}
+
+.timer.timerForm .footer {
+  margin-top: 20px;
+}
+
+.timer.timerForm .footer button {
+  width: 125px;
+  height: 30px;
+}
+
+.timerToggle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: auto;
+}
+
+.timerToggle button {
+  border: none; 
+  font-size: 20px;
+  background-color: transparent;
+}
