@@ -2,8 +2,19 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import renderElapsedString from './helpers';
-import newTimer from './helpers';
+// import newTimer from './helpers';
 import uuid from "uuid";
+
+function newTimer(attrs = {}) {
+    const timer = {
+      title: attrs.title || 'Timer',
+      project: attrs.project || 'Project',
+      id: uuid.v4(),
+      elapsed: 0,
+    };
+
+    return timer;
+  }
 
 //TimerDashboard
 /*
