@@ -65,6 +65,11 @@
   color: green;
 }
 
+.btn.stop {
+  border-color: red;
+  color: red;
+}
+
 .btn.edit {
   color: blue;
   border-color: blue;
@@ -89,6 +94,11 @@
 
 .btn.start:hover{
   background-color: green;
+  color: white;
+}
+
+.btn.stop:hover{
+  background-color: red;
   color: white;
 }
 
